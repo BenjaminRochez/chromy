@@ -1,31 +1,27 @@
 {
-    "name": "Chromy MV3",
-    "description": "POC chrome extension",
-    "version": "0.1.0",
-    "manifest_version": 3,
-    "icons": {
-        "16": "images/16.png",
-        "32": "images/32.png",
-        "48": "images/48.png",
-        "128": "images/128.png"
-    },
-    "background": {
-        "service_worker": "./background.js"
-    },
-    "action": {
-        "default_popup": "./popup.html",
-        "default_icons": {
-            "16": "images/16.png",
-            "32": "images/32.png",
-            "48": "images/48.png",
-            "128": "images/128.png"
-        }
-    },
-    "options_page": "./options.html",
-    "permissions": [
-        "activeTab", "tabs", "storage", "scripting"
-    ],
-    "host_permissions": [
-        "<all_urls>"
-    ]
+  "name": "Chromy MV3",
+  "description": "POC chrome extension",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/16.png",
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "128": "images/128.png"
+  },
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "action": {
+    "default_popup": "./popup.html",
+    "default_icons": {
+      "16": "images/16.png",
+      "32": "images/32.png",
+      "48": "images/48.png",
+      "128": "images/128.png"
+    }
+  },
+  "options_page": "./options.html",
+  "permissions": ["activeTab", "tabs", "storage", "scripting"],
+  "host_permissions": ["<all_urls>"]
 }
